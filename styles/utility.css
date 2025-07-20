@@ -2,6 +2,19 @@
   display: flex;
 }
 
+.flex-col-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-8 {
+  gap: 8px;
+}
 .gap-16 {
   gap: 16px;
 }
