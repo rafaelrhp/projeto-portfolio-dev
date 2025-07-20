@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.pb-8 {
+  padding-bottom: 8px;
+}
+
+.pt-12 {
+  padding-top: 12px;
+}
