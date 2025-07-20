@@ -1,0 +1,67 @@
+.bg {
+  background: url(../assets/Background_Intro.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 750px;
+  display: flex;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.perfil {
+  position: relative;
+  padding-bottom: 56px;
+}
+
+/* Avatar principal */
+.perfil > img:first-child {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  border: 2px solid var(--red);
+  padding: 4px;
+  position: relative;
+}
+
+/* Imagem interna do avatar */
+.perfil > img:first-child img {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+/* Ícone de código */
+.perfil > img:last-child {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 78px;
+  top: 78px;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.about {
+  width: 680px;
+  max-width: 680px;
+}
+
+#CaretDoubleDown {
+  cursor: pointer;
+}
+
+#CaretDoubleDown:hover {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%)
+    hue-rotate(180deg) brightness(104%) contrast(97%);
+}
