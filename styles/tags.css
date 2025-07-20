@@ -1,0 +1,56 @@
+.tags {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 80px;
+}
+
+.tags li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--gray-400);
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+.tags img {
+  width: 24px;
+  height: 24px;
+}
+
+.tags p {
+  color: var(--gray-200);
+  font: var(--text-md);
+}
+
+.tags li:nth-child(2) img {
+  /* HTML - vermelho */
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%)
+    hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+.tags li:nth-child(3) img {
+  /* CSS - azul */
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%)
+    hue-rotate(200deg) brightness(104%) contrast(97%);
+}
+
+.tags li:nth-child(4) img {
+  /* JavaScript - amarelo */
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%)
+    hue-rotate(60deg) brightness(104%) contrast(97%);
+}
+
+.tags li:nth-child(5) img {
+  /* React - azul claro */
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%)
+    hue-rotate(180deg) brightness(104%) contrast(97%);
+}
+
+.tags li:nth-child(6) img {
+  /* Node.js - verde */
+  filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%)
+    hue-rotate(120deg) brightness(104%) contrast(97%);
+}
