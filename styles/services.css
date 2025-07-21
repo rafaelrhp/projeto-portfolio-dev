@@ -1,0 +1,38 @@
+.services {
+  background-color: var(--gray-600);
+  padding: 88px 120px;
+}
+
+.services h2 {
+  font: var(--title-md);
+  color: var(--gray-100);
+}
+
+.services-cards {
+  align-items: center;
+  justify-self: center;
+}
+
+.services-card {
+  border: 2px solid var(--gray-500);
+  width: 280px;
+
+  border-radius: 12px;
+  padding: 20px;
+
+  img {
+    width: 48px;
+    height: 48px;
+  }
+
+  h3 {
+    margin-top: 20px;
+    font: var(--title-sm);
+    color: var(--gray-100);
+  }
+
+  p {
+    font: var(--text-sm);
+    color: var(--gray-200);
+  }
+}
